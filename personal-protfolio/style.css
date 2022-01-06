@@ -1,0 +1,234 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    min-height: 10vh;
+    background-color: rgb(230, 205, 168);
+   
+}
+.logo{
+    color: black;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    font-size: 20px;
+}
+.nav-links{
+    display: flex;
+    justify-content: space-around;
+    width: 30%;
+}
+.nav-links li{
+    list-style: none;
+}
+.nav-links a{
+    color: black;
+    text-decoration: none;
+    letter-spacing: 3px;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+h1{
+    font-size: 50px;
+}
+.color-font{
+    color: rgb(236, 188, 32);
+}
+.side-bar{
+    border-left: 4px solid tomato;
+    padding-left: 15px;
+}
+section{
+    display: flex;
+    padding: 5%;
+}
+
+.half-width{
+    width: 50%;
+    padding: 5%;
+    
+}
+ p{
+    margin-top: 15px;
+}
+
+.half-width img{
+    width: 80%;
+    margin-top: -95px;    
+}
+
+.link-btn{
+    
+    background-color: rgb(248, 50, 50);
+    color: white;
+    font-weight: bold;
+    letter-spacing: 2px;
+    padding: 15px 40px;
+    border-radius: 5px;
+    font-size: 14px;
+    margin-top: 20px;
+
+}
+.link-btn a{
+    text-decoration: none;
+    font-weight: bold;
+    letter-spacing: 2px;
+    color: white;
+
+}
+.bottom-p{
+    margin-top: 55px;
+}
+
+.about-area-top{
+    text-align: center;
+    margin-bottom: -20px;
+    margin-top: -40px;
+}
+
+.service_area{
+    padding: 5%;
+}
+
+h2{
+    font-weight: bold;
+    margin-left: 30px;
+}
+
+.mission-box {
+    background-color: rgb(225, 222, 226);
+    width: 30%;
+    height: 350px;
+    margin: 1%;
+    float: left;
+    border-radius: 10px;
+    text-align: left;
+}
+.mission-box p{
+    margin-left: 30px;
+}
+.mission-box img{
+    width: 50%;
+}
+
+.vission-box {
+    background-color: rgb(240, 240, 223);
+    width: 30%;
+    height: 350px;
+    margin: 1%;
+    float: left;
+    border-radius: 10px;
+}
+.vission-box p{
+    margin-left: 30px;
+}
+.vission-box img{
+    width: 50%;
+}
+
+.goal-box {
+    background-color: rgb(235, 222, 222);
+    width: 30%;
+    height: 350px;
+    margin: 1%;
+    float: left;
+    border-radius: 10px;
+}
+.goal-box p{
+    margin-left: 30px;
+}
+.goal-box img{
+    width: 50%;
+}
+
+.blog{
+    margin-top: -150px;
+}
+
+
+.img-side{
+    width: 50%;
+    padding: 5%;
+    
+}
+.img-side img{
+    width: 100%;
+    padding: 5%;
+    
+} 
+
+.blog-side{
+    width: 50%;
+    padding-left: 0%;
+    margin-top: 150px;
+}
+
+.blog-side p{
+    margin-top: 20px;
+}
+.blog-side-2{
+    width: 50%;
+    padding-left: 3%;
+    margin-top: 150px;
+    
+}
+.blog-2{
+    margin-top: -150px;
+}
+
+.contact-from{
+    text-align: center;
+    padding: 10px;
+    background: url(img/bg-img/img-bg.jpg);
+    
+}
+ h3{
+    text-align: center;
+    font-size: 40px;
+    font-weight: bold;
+    margin-bottom: 60px;
+    color: rgb(63, 46, 44);
+}
+    
+
+.contact{
+    display: flex;
+    
+}
+.contact-hedding input{
+    width: 50%;
+    margin: 10px;
+    padding: 5px;
+    border-radius: 10px;
+    border: 1px solid green;
+    
+}
+.contact-address{
+    background-color: honeydew;
+    height: 250px;
+    width: 500px;
+}
+footer{
+    background-color: black;
+    margin-bottom: 20px;
+    
+}
+.footer-title{
+    text-align: center;
+    color: #ffff;
+    padding: 10px;
+}
+.footer-title span{
+    color: tomato;
+}
+
+
